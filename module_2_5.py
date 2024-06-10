@@ -6,10 +6,10 @@ def get_matrix (n, m, value):   # Объявление функции
             matrix[i].append(value) # заполняет значение value
     return matrix
 
-matrix1 = get_matrix(2, 2, 10)
-matrix2 = get_matrix(3, 5, 42)
-matrix3 = get_matrix(4, 2, 13)
+result1 = get_matrix(2, 2, 10)
+result2 = get_matrix(3, 5, 42)
+result3 = get_matrix(4, 2, 13)
 
-print(matrix1)
-print(matrix2)
-print(matrix3)
+print(result1)
+print(result2)
+print(result3)
